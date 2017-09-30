@@ -1,0 +1,9 @@
+config:
+  setup:
+    loop: True
+    loop_time: 45 # minutes
+  linux:
+    trigger_key:
+  chip:
+    trigger_pin:
+    relay_pin:
