@@ -2,4 +2,4 @@
 Developers
 ==========
 
-* Lance <gundersen.lance@gmail.com>
+* Lance Gundersen <gundersen.lance@gmail.com>

@@ -31,7 +31,7 @@ if on_rtd:
         inspect.getfile(inspect.currentframe())))
 
     output_dir = os.path.join(__location__, "../docs/api")
-    module_dir = os.path.join(__location__, "../py")
+    module_dir = os.path.join(__location__, "../pyholiday")
     cmd_line_template = "sphinx-apidoc -f -o {outputdir} {moduledir}"
     cmd_line = cmd_line_template.format(outputdir=output_dir, moduledir=module_dir)
     apidoc.main(cmd_line.split(" "))
@@ -61,8 +61,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'py'
-copyright = u'2017, Lance'
+project = u'pyHoliday'
+copyright = u'2017, Lance Gundersen'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -128,7 +128,7 @@ html_theme = 'alabaster'
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
 try:
-    from py import __version__ as version
+    from pyholiday import __version__ as version
 except ImportError:
     pass
 else:
@@ -193,7 +193,7 @@ html_static_path = ['_static']
 # html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'py-doc'
+htmlhelp_basename = 'pyHoliday-doc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -212,8 +212,8 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'user_guide.tex', u'py Documentation',
-   u'Lance', 'manual'),
+  ('index', 'user_guide.tex', u'pyHoliday Documentation',
+   u'Lance Gundersen', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
