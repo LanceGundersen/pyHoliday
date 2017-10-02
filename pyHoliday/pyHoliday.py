@@ -1,3 +1,16 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+    Entry file for pyHoliday.
+
+    This file displays the current configuration and allows the users to select
+    a program from the list.
+
+    Ideas:
+    - Look at the programs directory and return the list to be selected.
+    - Allow the user to edit the config.yml here.
+"""
+
 import pyHoliday.init as i
 import pyHoliday.programs.alarm as a
 

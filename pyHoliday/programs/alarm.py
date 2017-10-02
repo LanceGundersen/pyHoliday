@@ -1,3 +1,20 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+    Halloween Alarm and Light Program aka alarm.
+
+    This file controls all aspects of the alarm program. It has the unique
+    scripts to run on linux and chip at the moment. Linux doesn't have the
+    light/relay trigger based on hardware limitations as I know it.
+
+    Ideas:
+    - Look into if the nested if/while statements are the best way to run this
+    program
+    - Add Pi Support
+    - For Linux/PC add Arduino support for relays
+    - For Linux/PC add wireless WiFi Relay Support
+"""
+
 import pyHoliday.functions as f
 import pyHoliday.init as i
 import time
