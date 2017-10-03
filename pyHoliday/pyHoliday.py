@@ -11,7 +11,6 @@
     - Allow the user to edit the config.yml here.
 """
 
-import pyHoliday.init as i
 import pyHoliday.programs.alarm as a
 import pyHoliday.init as i
 
