@@ -13,7 +13,7 @@
 
 import yaml
 
-configFilePath = 'config.yml'
+configFilePath = 'pyHoliday/config.yml'
 
 with open(configFilePath, 'r') as ymlfile:
     cfg = yaml.load(ymlfile)

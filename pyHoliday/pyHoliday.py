@@ -13,10 +13,11 @@
 
 import pyHoliday.init as i
 import pyHoliday.programs.alarm as a
+import pyHoliday.init as i
 
 
 def config():
-    print('Continuous Running: ' + i.continuousRun)
+    print('Continuous Running: ' + str(i.continuousRun))
     print('Time Between Running: ' + str(i.sleep))
     print('Platform: ' + i.platform)
     return
