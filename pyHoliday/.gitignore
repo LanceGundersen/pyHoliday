@@ -1,0 +1,107 @@
+# Byte-compiled / optimized / DLL files
+__pyHolidaycache__/
+*.pyHoliday[cod]
+*$pyHoliday.class
+.cache
+.coverage
+.coveragerc
+
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+env/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# pyHolidayInstaller
+#  Usually these files are written by a python script from a template
+#  before pyHolidayInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# pyHolidayBuilder
+target/
+
+# Temporary and binary files
+*~
+*.pyHoliday[cod]
+*.so
+*.cfg
+!setup.cfg
+*.orig
+*.log
+*.pot
+__pyHolidaycache__/*
+.cache/*
+.*.swp
+
+# Project files
+.ropeproject
+.project
+.pyHolidaydevproject
+.settings
+.idea
+
+# Package files
+*.egg
+*.eggs/
+.installed.cfg
+*.egg-info
+
+# Unittest and coverage
+htmlcov/*
+.coverage
+.tox
+junit.xml
+coverage.xml
+
+# Build and docs folder/files
+build/*
+dist/*
+sdist/*
+docs/api/*
+docs/_rst/*
+docs/_build/*
+cover/*
+MANIFEST
+bin/
