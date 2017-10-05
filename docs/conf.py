@@ -193,7 +193,7 @@ html_static_path = ['_static']
 # html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'pyHoliday-doc'
+htmlhelp_basename = 'programs-doc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
