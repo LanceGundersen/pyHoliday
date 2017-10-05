@@ -21,7 +21,6 @@ import time
 
 
 def linux():
-    print(alarm)
     f.playAudio(i.alarm)
     f.playAudio(i.voice)
     return
