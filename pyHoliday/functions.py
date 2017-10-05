@@ -14,6 +14,7 @@
 import pygame
 
 
+# Pass mp3 file in as stream
 def playAudio(stream):
     pygame.mixer.init()
     clock = pygame.time.Clock()
