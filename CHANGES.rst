@@ -2,9 +2,11 @@
 Changelog
 =========
 
-Version 0.1
+Version 1.0
 ===========
 
-- Feature A added
-- FIX: nasty bug #1729 fixed
-- add your changes here!
+Halloween Alarm and Light Program
+
+- Full support for the C.H.I.P.
+- Partial support for Linux (no keyboard trigger)
+- No support for any Raspberry Pi
