@@ -1,7 +1,7 @@
 # Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+__pyHolidaycache__/
+*.pyHoliday[cod]
+*$pyHoliday.class
 
 # C extensions
 *.so
@@ -24,9 +24,9 @@ var/
 .installed.cfg
 *.egg
 
-# PyInstaller
+# pyHolidayInstaller
 #  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+#  before pyHolidayInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
 
@@ -54,26 +54,26 @@ coverage.xml
 # Sphinx documentation
 docs/_build/
 
-# PyBuilder
+# pyHolidayBuilder
 target/
 
 # Temporary and binary files
 *~
-*.py[cod]
+*.pyHoliday[cod]
 *.so
 *.cfg
 !setup.cfg
 *.orig
 *.log
 *.pot
-__pycache__/*
+__pyHolidaycache__/*
 .cache/*
 .*.swp
 
 # Project files
 .ropeproject
 .project
-.pydevproject
+.pyHolidaydevproject
 .settings
 .idea
 
@@ -99,4 +99,4 @@ docs/_rst/*
 docs/_build/*
 cover/*
 MANIFEST
-bin/*
+bin/
