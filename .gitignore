@@ -1,11 +1,11 @@
 # Byte-compiled / optimized / DLL files
-__pyHolidaycache__/
+__pycache__/
 *.pyHoliday[cod]
 *$pyHoliday.class
 .cache
 .coverage
 .coveragerc
-
+*__pycache__/
 
 # C extensions
 *.so
