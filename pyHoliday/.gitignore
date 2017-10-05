@@ -3,6 +3,9 @@ __pyHolidaycache__/
 *.pyHoliday[cod]
 *$pyHoliday.class
 .cache
+.coverage
+.coveragerc
+
 
 # C extensions
 *.so
