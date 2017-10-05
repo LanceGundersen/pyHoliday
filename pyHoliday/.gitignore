@@ -2,6 +2,7 @@
 __pyHolidaycache__/
 *.pyHoliday[cod]
 *$pyHoliday.class
+.cache
 
 # C extensions
 *.so
@@ -20,6 +21,7 @@ lib64/
 parts/
 sdist/
 var/
+env/
 *.egg-info/
 .installed.cfg
 *.egg
